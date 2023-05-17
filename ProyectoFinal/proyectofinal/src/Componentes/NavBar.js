@@ -1,4 +1,5 @@
-
+import Image from 'react-bootstrap/Image'
+import logo from '../Images';
 import { Link, NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
@@ -8,6 +9,7 @@ export const NavBar = () => {
             <Link 
                 className="navbar-brand" 
                 to="/Inicio"
+                // <img src = {LogoDecoformas}/> 
             >
             </Link>
 
