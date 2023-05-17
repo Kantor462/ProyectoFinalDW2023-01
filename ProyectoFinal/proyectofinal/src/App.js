@@ -6,6 +6,7 @@ import { Contacto } from './Pages/Contacto';
 import { Trabajos } from './Pages/Trabajos';
 import { Inicio } from './Pages/Inicio';
 import { Footer } from './Componentes/Footer';
+import UncontrolledExample from './Componentes/Carrusel';
 
 
 
@@ -20,8 +21,10 @@ export default function App() {
           <Route path ='/Contacto' element={<Contacto/>} />
           <Route path ='/Trabajos' element={<Trabajos/>} />
         </Routes>
-        <Footer/>
       </Router>
+      <UncontrolledExample/>
+
+      <Footer/>
     </div>
   );
 }

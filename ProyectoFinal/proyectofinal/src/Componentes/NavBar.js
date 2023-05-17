@@ -1,17 +1,16 @@
 import Image from 'react-bootstrap/Image'
-import logo from '../Images';
+import imagee from '../Assets/imagenes.js'
 import { Link, NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             
-            <Link 
+            <NavLink 
                 className="navbar-brand" 
-                to="/Inicio"
-                // <img src = {LogoDecoformas}/> 
-            >
-            </Link>
+                to="/Inicio">
+                     <img width="50px" src = {imagee.img1}/> 
+            </NavLink>
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">
