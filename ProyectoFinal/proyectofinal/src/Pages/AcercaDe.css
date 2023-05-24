@@ -1,0 +1,17 @@
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: beige;
+
+}

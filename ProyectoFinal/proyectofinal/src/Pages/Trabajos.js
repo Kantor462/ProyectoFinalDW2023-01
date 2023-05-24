@@ -1,11 +1,13 @@
 import React from 'react';
+import imagenes from '../Assets/imagenes';
+
 
 const products = [
   {
     id: 1,
     name: 'Producto 1',
     description: 'Descripción del producto 1',
-    image: 'imagen1.jpg'
+    image: 'imagenes.img11'
   },
   {
     id: 2,

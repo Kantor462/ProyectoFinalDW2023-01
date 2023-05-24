@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Contacto.css'
+
 
 export const Contacto = () => {
   const [formData, setFormData] = useState({
@@ -13,14 +15,14 @@ export const Contacto = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // Aquí puedes agregar la lógica para enviar el formulario
-    console.log(formData);
+        console.log(formData);
   };
 
   return (
     <div>
-      <h1>Contacto</h1>
-      <form onSubmit={handleSubmit}>
+      <h1 id='Contact'>Contacto</h1>
+      <div className='contenedor'>
+      <form onSubmit={handleSubmit} className='Form'>
         <label htmlFor="name">Nombre:</label>
         <input
           type="text"
@@ -52,6 +54,7 @@ export const Contacto = () => {
 
         <button type="submit">Enviar</button>
       </form>
+      </div>
     </div>
   );
 };

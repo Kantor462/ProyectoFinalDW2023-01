@@ -15,6 +15,8 @@ export default function App() {
     <div className="App">
       <Router>
         <NavBar />
+        <UncontrolledExample/>
+
         <Routes>
           <Route path ='/Inicio' element={<Inicio/>}/>
           <Route path ='/AcercaDe' element={<AcercaDe/>} />
@@ -22,7 +24,6 @@ export default function App() {
           <Route path ='/Trabajos' element={<Trabajos/>} />
         </Routes>
       </Router>
-      <UncontrolledExample/>
 
       <Footer/>
     </div>

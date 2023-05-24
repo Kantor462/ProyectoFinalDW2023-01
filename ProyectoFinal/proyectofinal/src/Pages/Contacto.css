@@ -1,0 +1,19 @@
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 20px;
+}
+#Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contenedor {
+    margin: auto 20pc;
+}
